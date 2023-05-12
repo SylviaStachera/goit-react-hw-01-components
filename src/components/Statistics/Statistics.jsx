@@ -29,8 +29,6 @@ export const Statistics = ({ title, stats }) => {
 };
 
 Statistics.propTypes = {
-  stats: PropTypes.object.isRequired,
+  stats: PropTypes.array.isRequired,
   title: PropTypes.string,
-  label: PropTypes.string.isRequired,
-  percentage: PropTypes.number.isRequired,
 };
