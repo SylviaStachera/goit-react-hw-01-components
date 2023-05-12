@@ -20,8 +20,11 @@ export const App = () => {
           stats={user.stats}
         />
       </Section>
-      <Section title="Task 2: Statistics">
+      <Section title="Task 2a: Statistics">
         <Statistics title="Upload stats" stats={data} />
+      </Section>
+      <Section title="Task 2b: Statistics (no title)">
+        <Statistics stats={data} />
       </Section>
       <Section title={'Task 3: Friends list'}>
         <FriendList friends={friends} />
