@@ -13,13 +13,13 @@ export const Statistics = ({ title, stats }) => {
 
       <ul className={css.stats}>
         {stats.map(({ id, label, percentage }) => (
-          <li className={css.item} style={{backgroundColor: getRandomHexColor()}}>
-            <span key={id} className={css.label} >
-              {label}
-            </span>
-            <span key={id} className={css.percentage}>
-              {percentage}%
-            </span>
+          <li
+            key={id}
+            className={css.item}
+            style={{ backgroundColor: getRandomHexColor() }}
+          >
+            <span className={css.label}>{label}</span>
+            <span className={css.percentage}>{percentage}%</span>
           </li>
         ))}
       </ul>
