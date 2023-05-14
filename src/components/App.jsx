@@ -26,10 +26,10 @@ export const App = () => {
       <Section title="Task 2b: Statistics (no title)">
         <Statistics stats={data} />
       </Section>
-      <Section title={'Task 3: Friends list'}>
+      <Section title="Task 3: Friends list">
         <FriendList friends={friends} />
       </Section>
-      <Section title={'Task 4: Transaction history'}>
+      <Section title="Task 4: Transaction history">
         <TransactionHistory transactions={transactions} />
       </Section>
     </div>
